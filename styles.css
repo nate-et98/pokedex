@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("pokeball-background.png");
+    margin: 0;
+    padding: 0;
+  }
+
+  header{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-content: center;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-content: center;
+  }
+  
+  #menu-header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: black;
+    border: 1px solid #ddd;
+  }
+  
+  #menu-header input,
+  #menu-header select,
+  #menu-header button {
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  #menu-header input {
+    flex: 1;
+  }
+  
+  #menu-header button {
+    background-color: #cd0f0f;
+    color: white;
+  }
+
+#results{
+  text-align: center;
+  padding: 20px;
+}
+
+
+.search-btn{
+    margin: 0 10px;
+    padding: 10px 80px;
+    background-color: #cd0f0f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #cd0f0f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination span {
+    margin: 0 10px;
+  }
+
+#cards{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.field-box{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 20px;
+}
+
+.field{
+    border: 1px solid #ddd;
+    padding: 0px 15px 0px 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    text-align: center;
+    display: flex;
+}
+
+.field button{
+    background: none;
+    border: none;
+    color: inherit; 
+    padding: 0; 
+    font: inherit; 
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 10px auto;
+  }
